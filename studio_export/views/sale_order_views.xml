@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_sale_order_studio_export" model="ir.ui.view">
+        <field name="name">sale_order.studio.export.form</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="inside">
+                <group string="Studio Fields">
+                    <field name="x_studio_html_field_84r_1k6m0le9j"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>
