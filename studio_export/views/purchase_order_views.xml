@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_purchase_order_studio_export" model="ir.ui.view">
+        <field name="name">purchase_order.studio.export.form</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="inside">
+                <group string="Studio Fields">
+                    <field name="x_studio_binary_field_21e_1k6lpfd59"/>
+                    <field name="x_studio_binary_field_21e_1k6lpfd59_filename"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>
