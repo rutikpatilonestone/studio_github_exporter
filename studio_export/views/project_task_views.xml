@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_project_task_studio_export" model="ir.ui.view">
+        <field name="name">project_task.studio.export.form</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_form2"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="inside">
+                <group string="Studio Fields">
+                    <field name="x_studio_boolean_field_5as_1k6nrmop6"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>
