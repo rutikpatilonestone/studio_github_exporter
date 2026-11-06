@@ -1,1 +1,20 @@
-{'name': 'Exported Studio Fields', 'version': '18.0.1.0.0', 'depends': ['account', 'account_accountant', 'account_asset', 'account_auto_transfer', 'account_avatax', 'account_avatax_sale', 'account_avatax_stock', 'account_edi_ubl_cii', 'account_external_tax', 'account_invoice_extract', 'account_invoice_extract_purchase', 'account_loans', 'account_no_followup', 'account_payment', 'account_reports', 'account_reports_cash_basis', 'accountant', 'base', 'hr_timesheet', 'project', 'project_enterprise', 'project_enterprise_hr_skills', 'project_hr_skills', 'project_purchase', 'project_purchase_stock', 'project_sms', 'project_todo', 'purchase', 'purchase_edi_ubl_bis3', 'purchase_requisition', 'purchase_requisition_stock', 'purchase_stock', 'sale', 'sale_async_emails', 'sale_edi_ubl', 'sale_external_tax', 'sale_management', 'sale_pdf_quote_builder', 'sale_project', 'sale_purchase', 'sale_purchase_stock', 'sale_stock', 'sale_timesheet', 'sale_timesheet_enterprise', 'spreadsheet_sale_management', 'stock_account', 'timesheet_grid'], 'data': ['views/account_move_views.xml', 'views/project_task_views.xml', 'views/purchase_order_views.xml', 'views/sale_order_views.xml'], 'installable': True, 'application': False, 'license': 'LGPL-3'}
+{
+ 'name': 'Exported Studio Fields', 
+ 'version': '18.0.1.0.0',
+ 
+ 'depends': ['account', 'account_accountant', 'account_asset', 'account_auto_transfer', 'account_avatax', 'account_avatax_sale', 'account_avatax_stock', 'account_edi_ubl_cii', 'account_external_tax', 'account_invoice_extract', 'account_invoice_extract_purchase', 'account_loans', 'account_no_followup', 
+             'account_payment', 'account_reports', 'account_reports_cash_basis', 'accountant', 'base', 'hr_timesheet', 'project', 'project_enterprise', 'project_enterprise_hr_skills', 'project_hr_skills', 'project_purchase', 'project_purchase_stock', 'project_sms', 'project_todo', 'purchase', 
+             'purchase_edi_ubl_bis3', 'purchase_requisition', 'purchase_requisition_stock', 'purchase_stock', 'sale', 'sale_async_emails', 'sale_edi_ubl', 'sale_external_tax', 'sale_management', 'sale_pdf_quote_builder', 'sale_project', 'sale_purchase', 'sale_purchase_stock', 'sale_stock', 'sale_timesheet', 
+             'sale_timesheet_enterprise', 'spreadsheet_sale_management', 'stock_account', 'timesheet_grid'],
+ 
+ 'data': [
+   'views/account_move_views.xml', 
+   'views/project_task_views.xml', 
+   'views/purchase_order_views.xml',
+   'views/sale_order_views.xml'
+ ],
+  'installable': True, 
+  'application': False,
+  'license': 'LGPL-3'
+
+}
